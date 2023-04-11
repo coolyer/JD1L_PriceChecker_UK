@@ -5,8 +5,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import re
-from bs4 import BeautifulSoup
-import requests
 import time
 # set up the Chrome driver and options
 options = Options()
